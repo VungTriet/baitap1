@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+header{
+	width: 100%; height: 60px; background-color: white; border-bottom: 1px solid #D1ABAB
+}
+.logo{
+  padding-top: 18px
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding-top: 22px
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; font-size: 16px; color: gray
+}
+.menu ul li a:hover{
+	background-color: rgba(148,83,54,1.00); color: white; border-radius: 20px
+}
+.icon-header a{
+	margin: 0; padding: 0; list-style: none; 
+}
+.icon-header{
+	padding-top: 16px
+}
+.ml-10{
+	margin-left: 10px
+}
+.banner{
+	width: 100%; min-height: 600px; background-image: url("../images/Banner1.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom center
+}
+main{
+	width: 100%; min-height: 500px
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.text-do{
+	color: darkred
+		
+}
+.vien{
+	border: 2px solid darkred; padding: 10px; border-radius: 5px; width: 100%; position: relative; overflow: hidden
+}
+.icon{
+	width: 80%; height: 45px; position: absolute; left: 10%; top: -20%; display: flex; justify-content: space-around; transition: all 0.5s
+}
+.icon a{
+	width: 45px; height: 45px; background-color: darkred; border-radius: 50px; display: flex; justify-content: center; align-items: center; text-decoration: none; color: white
+}
+.icon a:hover{
+	background-color: darkgray; color: darkred
+}
+.vien:hover .icon{
+	top: 40%
+}
+.caption{
+	width: 30%; position: relative; bottom: 50%; left: 35%; text-align: center; 
+}
+#feature{
+	width: 100%; min-height: 600px; background-image: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom center
+}
+.vien2{
+	border: 2px solid white; padding: 20px; border-radius: 5px; width: 100%; position: relative; text-align: center
+}
+.pt-30{
+	padding-top: 30px
+}
+.vien2 a{
+	text-decoration: none; color: darkred; cursor: pointer
+}
+.vien2 a:hover{
+	color: white
+}
+#contact{
+	width: 100%; min-height: 600px; background-image: url("../images/Banner2.png"); background-repeat: no-repeat; background-size: cover; background-position: center top
+}
+.shadow{
+	min-height: 200px; border: 1px solid gray; box-shadow: 5px 5px 5px gray; padding: 30px
+}
+.form-control{
+	padding: 8px; width: 100%; margin-bottom: 10px
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color: darkorange;
+      text-decoration: none; }
